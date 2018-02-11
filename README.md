@@ -19,12 +19,12 @@ Tiles
 
 Classify the 2x2 tiles of properly 4-colored grids as follows:
 
-*Type A* (2 tiles):
+**Type A** (2 tiles):
 
     1 3    2 3
     3 2    3 1
 
-*Type B* (14 tiles):
+**Type B** (14 tiles):
 
     2 1    4 1
     1 4    1 2
@@ -47,23 +47,23 @@ Classify the 2x2 tiles of properly 4-colored grids as follows:
     1 3    2 3
     4 2    4 1
 
-*No type:* everything else.
+**No type:** everything else.
 
 
 Results
 -------
 
-*Lemma:* If you change the color of one node in the grid,
+**Lemma:** If you change the color of one node in the grid,
 the total number of type-A tiles mod 2 changes by one if and only if
 the total number of type-B tiles mod 2 changes by one.
 
-_Proof:_ See the code in this repository.
+*Proof:* See the code in this repository.
 
-*Corollary:* If colorings x and y do not contain any nodes of color 4,
+**Corollary:** If colorings x and y do not contain any nodes of color 4,
 and x and y have a different number of type-A tiles mod 2, then it is
 not possible to reach coloring y from x.
 
-_Proof:_ All type-B tiles contain one node of color 4.
+*Proof:* All type-B tiles contain one node of color 4.
 
 
 Code
