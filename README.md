@@ -75,3 +75,10 @@ color of the middle node, and checks that the claim holds.
 
 It also produces a human-readable output of all cases, available in
 the text file `check-tiles.txt`.
+
+
+License
+-------
+
+https://opensource.org/licenses/MIT
+
