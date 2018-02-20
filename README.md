@@ -3,6 +3,10 @@ Distributed Recoloring
 
 Marthe Bonamy, Paul Ouvrard, Mikaël Rabie, Jukka Suomela, and Jara Uitto
 
+This repository contains code related to the following manuscript:
+https://arxiv.org/abs/1802.06742
+
+
 
 Background
 ----------
